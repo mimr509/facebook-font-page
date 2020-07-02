@@ -1,0 +1,71 @@
+@media screen and ( max-width:1100px){
+
+.left-area{
+	width:100%;
+	margin:40px auto;
+} 
+.left-area h3 {
+	margin:0 auto;
+}
+.right-area {
+	width:100%;
+	Margin-top:400px;	
+}
+.footer{
+	margin-top:1000px;
+	
+}
+
+@media screen and ( max-width:800px){
+	.logo-area{
+		width:100%;
+		float:none;
+	}
+	.login-area{
+	width:100%;
+	}
+	.login-area form{
+		float:none;
+		width:391px;
+		margin:auto;
+	}
+	.logo-area img{
+		width:180px;
+		display:block;
+		margin:20px auto;	
+	}
+	.container {
+		width:90%;
+	}
+}
+@media screen and ( max-width:480px){
+	.user-area,
+	.pass-area,
+	.login-btn{
+		float:none;
+	}
+	.user-area input{
+		width:100%;
+	}
+	.pass-area input{
+		width:100%;
+	}
+	.pass-area {
+		margin-top:10px;
+	}
+	.login-area form{
+		width:100%;
+	}
+	.right-area{
+		margin-top:250px;	
+	}
+	.footer{
+		margin-top:800px;
+	}
+}
+@media screen and ( max-width:360px){
+	.footer{
+		margin-top:900px;
+	}
+}	
+	 
